@@ -7,7 +7,7 @@ class CircleAnimationApp:
   def __init__(self, root):
     self.root = root
     self.root.title("Лабораторная 2: Анимация круга")
-    self.root.geometry("800, 700")
+    self.root.geometry("800x700")
 
     title_label = tk.Label(
         root, text="Анимация: Превращение круга в треугольник", font=("Arial", 16, "bold")

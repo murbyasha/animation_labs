@@ -7,7 +7,7 @@ class FractalApp:
   def __init__(self, root):
     self.root = root
     self.root.title("Лабораторная 1: Простой фрактал")
-    self.root.geometry("800, 700")
+    self.root.geometry("800x700")
 
     # Заголовок
     title_label = tk.Label(
